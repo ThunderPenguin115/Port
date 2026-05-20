@@ -21,6 +21,11 @@ body {
   height: 100%;
 }
 
+#projects .mainBody{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .mianBody h3 {
   text-align: center;
 }
