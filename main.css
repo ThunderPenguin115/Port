@@ -48,6 +48,10 @@ body{
 
         }
 
+main{            
+    min-height: 725px;
+}
+
 img{
     width: 475px;
     height: 200px;    
