@@ -1,124 +1,119 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: ApriliaKupril;
-    src: url(/Media/Fonts/ApriliaKupril-DYM0x.ttf);
+  font-family: ApriliaKupril;
+  src: url(/Media/Fonts/ApriliaKupril-DYM0x.ttf);
 }
 @font-face {
-    font-family: ApriliaKuprilItalic;
-    src: url(/Media/Fonts/ApriliaKuprilItalic-pgq3v.ttf);
+  font-family: ApriliaKuprilItalic;
+  src: url(/Media/Fonts/ApriliaKuprilItalic-pgq3v.ttf);
 }
-body{
-            display: flex;
-            flex-direction: column;
-        }
-
-.mainBody{
-            background:#edffed;
-            padding: 10px;
-            height: 100%;
-        }
-
-.mianBody h3{
-    text-align: center;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-.skillsContainer{
-            display: grid;
-            align-items: stretch;
-            flex-wrap: wrap;
-            gap: 3rem;
-            text-align: left;
-            justify-content: space-evenly;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+.mainBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
-.skills{
-            display: flex;
-            text-decoration: none;
-            border: 2px solid white;
-            border-radius: 15px;
-            background-color: white;
-            text-align: center;
-            flex-direction: column;
-            justify-content: center;
-
-        }
-
-main{            
-    min-height: 725px;
+  padding: 10px;
+  height: 100%;
 }
 
-img{
-    width: 475px;
-    height: 200px;    
+.mianBody h3 {
+  text-align: center;
 }
 
-#js{
-    grid-column: 2;
+.skillsContainer {
+  display: grid;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 3rem;
+  text-align: left;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.head{
-    width: 100%;
-    height: 50px;
-    color: white;
-    background-color: #2e742f;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
+.skills {
+  display: flex;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.head h1{
-    font-family: ApriliaKupril;
+img {
+  width: 475px;
+  height: 200px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+main {
+  min-height: 725px;
+    background: #edffed;
+}
+#js {
+  grid-column: 2;
 }
 
-
-
-#foot{
-    padding: 1rem 0;
-    background-color: #2e742f;
-    color: white;
-    bottom: 0;
+.head {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #2e742f;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
-.mainBody{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
+
+.head h1 {
+  font-family: ApriliaKupril;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#foot {
+  padding: 1rem 0;
+  background-color: #2e742f;
+  color: white;
+  bottom: 0;
 }
 
 .card {
-background-color: #2E742F;
-border-left: 7px solid black;
-color: white;
-height: 400px;
-margin: 20px auto;
-min-height: 100px;
-width: 50%;
-border-radius: 8px;
-padding: 20px;
-text-align: center;
+  background-color: #2e742f;
+  border-left: 7px solid black;
+  color: white;
+  height: 400px;
+  margin: 20px auto;
+  min-height: 100px;
+  width: 50%;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
 }
 .card a img {
-width: 100%;
-margin: 10px auto;
-border-radius: 10px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 10px;
 }
 .card h1 {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .card p a:link {
-color: white;
+  color: white;
 }
 .card p a:hover {
-color: black;
+  color: black;
 }
 .card p a:visited {
-color: rgb(105, 105, 105);
+  color: rgb(105, 105, 105);
 }
